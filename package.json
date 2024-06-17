@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
   },
-  "author": "",
+  "author": "Sohye Kim",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@wordpress/blocks": "^13.1.0",
     "@wordpress/scripts": "^28.1.0"
   }
 }
